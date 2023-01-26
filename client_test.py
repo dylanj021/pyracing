@@ -11,8 +11,8 @@ import unittest
 
 dotenv.load_dotenv()
 client = pyracing.Client(
-    os.getenv('IRACING_USERNAME'),
-    os.getenv('IRACING_PASSWORD')
+    os.getenv('dylan.jordan021@gmail.com'),
+    os.getenv('Prestige@123')
 )
 
 logging.basicConfig(
